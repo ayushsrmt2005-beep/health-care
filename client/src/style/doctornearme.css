@@ -1,0 +1,64 @@
+/* Container for the cards */
+.hospital {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+    margin: 8px;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  /* Hover effect for the cards */
+  .hospital:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Hospital name styling */
+  .hospital h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 8px;
+  }
+  
+  /* Address and additional details styling */
+  .hospital p {
+    font-size: 1rem;
+    color: #666;
+    margin: 4px 0;
+  }
+  
+  /* Links styling */
+  .hospital a {
+    font-size: 1rem;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .hospital a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Button styling */
+  .button.is-info.is-inverted {
+    margin-top: 30px;
+    margin-left: 80px;
+    border: 2px solid #209cee;
+    color: #209cee;
+    background-color: white;
+    border-radius: 8px;
+    padding: 10 px 16px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .button.is-info.is-inverted:hover {
+    background-color: #209cee;
+    color: white;
+  }
+  .columns.is-centered .button {
+    margin: 8px;
+  }
+  

@@ -1,0 +1,15 @@
+
+
+.is-royal-blue {
+    background:#3193c4
+    /*background: #00B2FF; /* Royal blue color */
+  }
+
+  .is-my-custom-blue {
+    background-color: #fff ; /* Example: Blue */
+    color:#00B2FF; 
+  }
+
+  .hero-body {
+    padding-top: 6rem; /* Adjust as needed */
+  }
